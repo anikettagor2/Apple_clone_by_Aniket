@@ -1,0 +1,295 @@
+* {
+    margin: 0;
+    background-repeat: no-repeat;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    width: 100%;
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    height: 50px;
+    width: 100%;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(93, 93, 95);
+    padding: 4px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    position: fixed;
+    justify-content: space-evenly;
+}
+
+.navbar li {
+    color: #ffffff;
+    margin: 13px;
+    display: flex;
+}
+
+.navbar li:hover {
+    color: gray;
+    cursor: pointer;
+    font-size: 1.3rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.bar {
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 45px 0px;
+    font-size: 19px;
+    color: gray;
+}
+
+.hero1 {
+    width: 100%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    height: 600px;
+    top: -30px;
+    padding: 10px;
+    box-sizing: border-box;
+    position: relative;
+    background-size: cover;
+    background: url("https://www.apple.com/in/iphone-14-pro/images/key-features/hero/hero__cj6i78tzkp8i_large.jpg");
+}
+
+.centered1 {
+    position: absolute;
+    top: 7%;
+    font-size: 60px;
+    color: white;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.hero2 {
+    height: 724px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.centered2{
+    color: white;
+    position: relative;
+    top: 110px;
+}
+.hero2 img{
+    border-radius: 10px;
+}
+.hero2 img:hover{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.hero2,
+.p1 {
+    font-size: 70px;
+    text-align: center;
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Caprasimo', cursive;
+    font-family: 'Courgette', cursive;
+    font-family: 'Lato', sans-serif;
+}
+.p2 {
+    font-size: 19px;
+    font-weight: lighter;
+
+
+}
+
+.hero3 img {
+    height: 500px;
+    width:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero_container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 1100PX;
+    background-color: #0f1111;
+    margin: 10px auto;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(149, 149, 149, 0.63);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.hero_container:hover{
+    /* From https://css.glass */
+
+}
+
+.hero_container01,
+.hero_container02 {
+    height: 500px;
+    width: 500px;
+    background-color: rgb(254, 254, 254);
+    background-size: cover;
+}
+.hero_container_para01{
+    font-size: 40px;
+    text-align:center;
+    font-weight: 700;
+}
+span{
+    font-size: 45px;
+    text-align: center;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+}
+.context1{
+    font-weight: 500;
+    text-align: center;
+    margin: 10px;
+    font-size: 15px;
+}
+.context2 p{
+    text-align: center;
+}
+.hero_container_para02{
+    font-size: 40px;
+    text-align:center;
+    font-weight: 700;
+}
+.last img{
+    height: 900px;
+    width: 100%;
+    display: flex;
+    background-repeat: no-repeat;
+    justify-content: center;
+    background-size: cover;    
+    color: black;
+}
+
+.imp{
+    position: relative;
+    top: 490px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.imp:hover{
+    animation-name: ef1;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    top: 390px;
+    text-shadow: 10px 10px 10px 5px white;
+    font-size: 140px;
+    transition: all 0.3s ease-in-out;
+
+    color: white;
+}
+@keyframes ef1 {
+    from{
+
+    }
+    to
+    {
+
+    }
+    
+}
+footer{
+    margin-top: 50px;
+}
+.foot_panel1{
+    background-color: #f5f5f7;
+    color: black;
+    padding: 40px;
+    box-sizing: border-box;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+.foot_panel2 {
+    background-color: #f5f5f7;
+    color: rgb(0, 0, 0);
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.foot_panel2 ul{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+ul a{
+    text-decoration: none;
+    color: gray;
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+}
+.foot_panel3
+{
+    padding: 30px;   
+    box-sizing: border-box;
+    background-color: #f5f5f7;
+    color: gray;
+    border-top: 0.5px solid white;
+    height: 68px;
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    background: url(amazon_logo.png);
+    width: 100px;
+    background-size: cover;
+    height: 50px;
+}
+.foot_panel4{
+    background-color:#0f1111;
+    color: white;
+    height: 76px;
+    /*    display: flex;
+    justify-content: center;
+    align-items: center;*/
+}
+.foot_copy{
+    font-size: 0.85rem;
+    padding: 10px;
+   
+    text-align: center;
+}
+.foot_copy a{
+    text-decoration: none;
+    color: white;
+}
+.copy{
+    text-align: center;
+    font-size: 0.7rem;
+}
+.button_sec button{
+    height: 30px;
+    width: 130px;
+    border-radius: 3px;
+    background-color: #222f3d;
+    border: 0.2px solid white;
+    color: white;
+}
+.button_sec{
+    margin-top: 11px;
+}
+.india p{
+    float: right;
+    font-size: 13px;
+}
+.crdit a{
+    font-size: 30px;
+    color: blue;
+}
